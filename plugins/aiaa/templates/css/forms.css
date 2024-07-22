@@ -1,0 +1,123 @@
+/* box for the registration form */
+.box {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  box-sizing: border-box; /* Ensure padding doesn't affect width */
+}
+
+/* Styling for form elements */
+.box h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.box hr {
+  color: #ccc;
+  height: 1px;
+}
+
+.box .error {
+  border: 1px solid red;
+  background-color: #f8d7da;
+  color: #721c24;
+  padding: 10px;
+  margin-bottom: 1rem;
+  border-radius: 4px;
+}
+
+.box .success {
+  border: 1px solid green;
+  background-color: #d4edda;
+  color: #155724;
+  padding: 10px;
+  margin-bottom: 1rem;
+  border-radius: 4px;
+}
+
+.box form {
+  display: flex;
+  flex-direction: column;
+}
+
+.box label {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #666;
+  display: block; /* Ensure labels are full-width */
+}
+
+.box input[type="text"],
+.box input[type="email"],
+.box input[type="password"],
+.box input[type="submit"] {
+  width: 100%; /* Ensure inputs take up full box width */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; /* Include padding and border in width */
+}
+
+.box input[type="submit"] {
+  background-color: #f8f9fa;
+  margin-top: 1rem;
+}
+
+/* Style for the submit button */
+.box input[type="submit"] {
+  background-color: #2671b1;
+  color: white;
+}
+
+.box input[type="submit"]:hover {
+  background-color: #1b5a8d;
+}
+.alert-danger {
+  color: #842029;
+  background-color: #f8d7da;
+  border-color: #f5c2c7;
+  padding: 1rem;
+}
+
+.alert-danger .error {
+  border: 0px;
+  padding: 0px;
+  margin: 0px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .box {
+    padding: 1rem;
+    margin: 1rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .box form {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .box form p {
+    width: 50%; /* Make each form field take up half the width of the form */
+    padding: 0 1rem;
+  }
+
+  .box form p:last-child {
+    width: 100%;
+  }
+}
+
+.blue {
+  color: #2271b1;
+}
+
+.blue:hover {
+  color: #1b5a8d;
+}

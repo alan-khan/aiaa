@@ -1,0 +1,20 @@
+.wp-core-ui {
+    background-color: #fff;
+}
+#login h1 a {
+    background-image: none;
+}
+
+#login .wp-login-register {
+    display: none;
+}
+
+#login .wp-login-lost-password {
+    display: block;
+    margin-top: 15px;
+}
+
+#login .wp-login-log-in {
+    display: block;
+    margin-top: 15px;
+}

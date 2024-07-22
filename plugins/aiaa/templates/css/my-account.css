@@ -1,0 +1,356 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Open+Sans&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+h1,
+h2,
+h3,
+p,
+a,
+button,
+td {
+  font-family: "Inter", sans-serif;
+}
+.alert-success {
+  color: #fff;
+  background-color: #047a0a;
+  border-color: #047a0a;
+  padding: 1rem;
+}
+.nv-page-title {
+  display: none;
+}
+.welcome-message {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 15px 0px;
+}
+.welcome-message h2 {
+  margin: 0px;
+  padding: 0px;
+  text-transform: capitalize;
+}
+.welcome-message p {
+  margin: 0px;
+  padding: 0px;
+}
+
+.primary-button {
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: #0a93b5;
+  font-weight: 500;
+  color: #fff;
+  padding: 10px 16px;
+  display: block;
+  text-align: center;
+}
+.primary-button:hover {
+  background-color: #1b5a8d;
+  color: #fff;
+}
+
+.secondary-button {
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: #e6e9ec;
+  font-weight: 500;
+  color: #000;
+  padding: 10px 16px;
+  display: block;
+  text-align: center;
+}
+.secondary-button:hover {
+  background-color: #bebebe;
+  color: #000;
+}
+
+.status {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 15px 0px;
+}
+.status .aiaa-column {
+  background-color: #2271b1;
+  float: left;
+  width: 100%;
+  padding: 20px 0px;
+  border-radius: 10px;
+}
+
+.status .aiaa-column .content {
+  width: 20%;
+  float: left;
+  padding: 0px 5%;
+}
+
+.status .aiaa-column .content:nth-child(2) {
+  padding-left: 20px;
+}
+
+.status .aiaa-column .content h4 {
+  font-weight: 300;
+  color: #fff;
+  padding: 0px;
+  margin: 0px;
+  font-size: 13px;
+}
+.status .aiaa-column .content p {
+  font-weight: bold;
+  color: #fff;
+  padding: 0px;
+  margin: 0px;
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.new-appraisals {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 15px 0px;
+  overflow-x: scroll;
+}
+
+.invoices {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 15px 0px;
+  overflow-x: scroll;
+}
+
+.invoices .table tfoot div {
+  width: 48%;
+  float: left;
+  margin-right: 2%;
+}
+.invoices .table tfoot div:last-child {
+  margin-right: 0px;
+}
+.invoices .table tfoot td:first-child {
+  border-bottom-left-radius: 10px;
+  border-bottom: 0px;
+  width: 50%;
+}
+.invoices .table tfoot td:last-child {
+  border-bottom-right-radius: 10px;
+  text-align: right;
+  border-bottom: 0px;
+  width: 50%;
+}
+
+.reports {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 15px 0px;
+  overflow-x: scroll;
+}
+.table {
+  border: 1px solid lightgray;
+  border-radius: 10px;
+}
+.table p {
+  margin: 0px;
+  padding: 0px;
+}
+.reports .table thead tr:nth-child(2) th {
+  border-top-left-radius: 0px;
+  background: #f0f0f0;
+  color: #000;
+}
+
+.reports .table thead tr:nth-child(2) th:nth-child(2) {
+  color: #2271b1;
+}
+.reports .table thead th:first-child {
+  border-top-left-radius: 10px;
+  background: #2271b1;
+  color: #fff;
+}
+.reports .table thead th:last-child {
+  border-top-right-radius: 10px;
+  background: #2271b1;
+}
+.reports .table tfoot td {
+  border-bottom: 0px;
+}
+.reports .table tfoot td:first-child {
+  border-bottom-left-radius: 10px;
+  background: #2271b1;
+}
+.reports .table tfoot td:last-child {
+  border-bottom-right-radius: 10px;
+  background: #2271b1;
+  text-align: right;
+}
+
+.reports .table tfoot td a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.reports .table thead {
+  color: #fff;
+  border-radius: 10px;
+}
+.table input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+}
+.table thead th {
+  border-bottom: 1px solid lightgray;
+}
+.table thead th:last-child {
+  text-align: right;
+}
+.table tbody td {
+  border-bottom: 1px solid lightgray;
+}
+.table tbody td p {
+  font-weight: bold;
+}
+.table tbody td:last-child {
+  text-align: right;
+}
+.table tbody td:last-child a {
+  color: #2271b1;
+  font-size: 15px;
+}
+.table tbody td a {
+  color: #000;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.badges-red {
+  color: red;
+  font-weight: bold;
+}
+.badges-green {
+  color: green;
+  font-weight: bold;
+}
+.badges-blue {
+  color: #2271b1;
+  font-weight: bold;
+}
+
+.badges-grey {
+  color: #8B8000;
+  font-weight: bold;
+}
+
+.badges-yellow {
+  color: #FFC300;
+  font-weight: bold;
+}
+
+.pay-now {
+  background-color: #2271b1;
+  color: #fff;
+  border: none;
+  padding: 2px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  margin: 2px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.pay-now:hover {
+  background-color: #1b5a8d; /* Darker shade of red on hover */
+  color: white;
+}
+
+.messages {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 15px 0px;
+  overflow-x: scroll;
+}
+.messages .button{
+  color:#fff!important;
+  background-color: #2271b1;
+}
+
+.modal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  visibility: hidden;
+  transform: scale(1.1);
+  transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
+}
+.modal-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 2rem 2.5rem;
+  width: 30em;
+  border-radius: 0.5rem;
+}
+.close-button {
+  float: right;
+  width: 2.5rem;
+  font-size: 1.9em;
+  line-height: 1;
+  padding: 0 0.2em 0.15em;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 0.25rem;
+  color: #000;
+  transition: color 0.12s ease-in-out;
+}
+.close-button:hover {
+  color: #000000;
+}
+.show-modal {
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1);
+  transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
+}
+.modal h4{
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 25px;
+}
+.modal p{
+  border-top: 1px solid lightgray;
+  padding: 10px;
+  border-bottom: 1px solid lightgray;
+  border-left: 1px solid lightgray;
+  border-right: 1px solid lightgray;
+  overflow-y: scroll;
+  height: 100px;
+}
+.modal textarea{
+  width: 100%;
+  margin-bottom: 20px;
+  height: 100px;
+}
+.modal .button{
+
+}

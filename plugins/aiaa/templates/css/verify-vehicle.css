@@ -1,0 +1,100 @@
+.nv-page-title {
+  display: none;
+}
+.welcome {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 15px 0px;
+  text-align: center;
+}
+.welcome h2 {
+  margin: 0px 0px 30px 0px;
+  padding: 0px;
+  text-transform: capitalize;
+}
+.welcome p {
+  margin: 0px;
+  padding: 0px;
+}
+
+.welcome form {
+  background: #fff;
+  padding: 20px;
+  margin: 20px 0px;
+  box-shadow: 0px 0px 15px 0px rgb(217, 217, 217);
+  -webkit-box-shadow: 0px 0px 15px 0px rgb(217, 217, 217);
+  -moz-box-shadow: 0px 0px 15px 0px rgb(217, 217, 217);
+}
+
+.welcome form h3 {
+  text-align: left;
+  padding: 0px;
+  margin: 10px 0px 10px 0px;
+}
+.welcome form p {
+  text-align: left;
+}
+
+.welcome select {
+  width: 100%;
+  padding: 10px;
+  margin: 15px 0px;
+  border: 1px solid #b3b3b3;
+}
+.welcome input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #b3b3b3;
+  margin: 15px 0px;
+}
+
+input[type="text"]::placeholder {
+  color: #000;
+}
+
+.welcome input[type="submit"] {
+  margin: 0 auto;
+  padding: 10px 25px;
+  border: 1px solid #2271b1;
+  background-color: #2271b1;
+  margin: 15px 0px 10px 0px;
+  color: #fff;
+  font-weight: 300;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.welcome input[type="submit"]:hover {
+  background-color: #1b5a8d;
+  color: #fff;
+}
+
+.welcome a {
+  margin: 0 auto;
+  padding: 10px 25px;
+  border: 1px solid #fff;
+  background-color: #fff;
+  margin: 15px 0px 10px 0px;
+  color: #1b5a8d;
+  font-weight: 300;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.welcome a:hover {
+  background-color: #ffd;
+  color: #1b5a8d;
+}
+
+.welcome .right {
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .welcome .right {
+    text-align: right;
+  }
+}

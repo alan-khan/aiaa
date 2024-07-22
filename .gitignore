@@ -1,0 +1,8 @@
+.db_data
+.idea
+.DS_Store
+plugins/akismet
+plugins/.DS_Store
+wp-content/themes
+
+
